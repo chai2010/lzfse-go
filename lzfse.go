@@ -3,3 +3,7 @@
 // license that can be found in the LICENSE file.
 
 package lzfse
+
+func Main(args []string) int {
+	return lzfseMain(args)
+}
