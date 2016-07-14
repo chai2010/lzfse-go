@@ -1,0 +1,3 @@
+# lzfse for Go
+
+TODO
