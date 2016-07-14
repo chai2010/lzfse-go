@@ -1,0 +1,19 @@
+// Copyright 2016 <chaishushan{AT}gmail.com>. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+#ifndef LZFSE_CAPI_H_
+#define LZFSE_CAPI_H_
+
+#include <lzfse.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+int lzfse_main(int argc, char** argv);
+
+#ifdef __cplusplus
+}
+#endif
+#endif	// LZFSE_CAPI_H_
